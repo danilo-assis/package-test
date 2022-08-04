@@ -15,7 +15,7 @@ npm i package-test-d2
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'package-test'
+import MyComponent from 'package-test-d2'
 import 'package-test/dist/index.css'
 
 class Example extends Component {
