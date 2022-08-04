@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save package-test
+npm i package-test-d2
 ```
 
 ## Usage
