@@ -13,16 +13,27 @@ npm i package-test-d2
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'package-test-d2'
-import 'package-test-d2/dist/index.css'
+import { ExampleComponent } from 'package-test'
+import 'package-test/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <>
+      <ExampleComponent
+        text='Create React Library Example 😄'
+        bgColor='theme1'
+      />
+      <ExampleComponent
+        text='Create React Library Example 😄'
+        bgColor='theme2'
+      />
+    </>
+  )
 }
+
+export default App
 ```
 
 ## License
