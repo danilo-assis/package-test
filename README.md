@@ -16,7 +16,7 @@ npm i package-test-d2
 import React, { Component } from 'react'
 
 import MyComponent from 'package-test-d2'
-import 'package-test/dist/index.css'
+import 'package-test-d2/dist/index.css'
 
 class Example extends Component {
   render() {
